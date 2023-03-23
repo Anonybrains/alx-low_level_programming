@@ -18,7 +18,7 @@ int x, y, z;
 		{
 		_putchar(z + '0');
 		}
-	if (z < 10 && z >= 0)
+	if (z < 10 && z != 0)
 	{
 		_putchar(',');
 		_putchar(' ');
