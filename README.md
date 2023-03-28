@@ -1,1 +1,11 @@
-alx-low_level_programming readme file
+ALX-LOW LEVEL LANGUAGE PROGRAMMING RAEDME FILE
+
+
+What is a Low-Level Language?
+
+
+A low-level language, often known as a computer's native language, is a sort of programming language. It is very close to writing actual machine instructions, and it deals with a computer's hardware components and constraints. It works to control a computer's operational semantics and provides little or no abstraction of programming ideas. In contrast to high-level language that used for developing software, low-level code is not human-readable, and it is often cryptic. Assembly language and machine language are two examples of low-level programming languages.
+The major goal of the low-level language is to utilize high-level languages like PHP, C#, and Swift to build software programmes and scripts that operate, manage, and modify the computer's hardware and instructions set architecture. The source code can be created and edited by a software developer in a high-level language with the help of using a basic text editor or a programming IDE. However, the CPU cannot recognize the code directly. Before that, the code is compiled into a low-level language.
+Low-level languages are advantageous because programmes and applications written in them may be executed directly on computer hardware without the requirement for translation or interpretation. Also, these applications and programs can run with a very minimal memory footprint as well as very fast. However, they need a deeper knowledge of machine language; therefore, they may be hard to use.
+An assembly language comprises commands like ADD (add), SUB (subtract), and MOV (move). These commands are responsible for executing basic operations, such as performing calculations and moving values into memory registers. By using an assembler, assembly language can be translated into machine language.
+The lowest level of the computer language is machine language or machine code, which includes binary code. Compiling high-level source code for a given processor is commonly used to produce machine language code. Modifying or even look at the machine code is never required by most developers. Viewing the machine code is only needed by the programmer who builds the operating system and software compilers.
