@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+/**
+ * check_num - a function that checks string there are digit
+ * @str: array string
+ *
+ * Return: 0 if successful
+ */
 
 int check_num(char *str)
 {
@@ -18,10 +24,15 @@ int check_num(char *str)
 		count++;
 	}
 	return (1);
-
+/**
+ * main - Print the name of the program
+ * @argc: argument count
+ * @argv: argument
+ *
+ * Return: 0 if successful
+ */
 int main(int argc, char *argv[])
 {
-
 	int count;
 	int str_to_int;
 	int sum = 0;
@@ -30,21 +41,19 @@ int main(int argc, char *argv[])
 
 	while (count < argc)
 	{
-	if(check_num(argv[count]))
-
-	{		
-	str_to_int = atoi(argv[count]);
-	um += str_to_int;
-	}
-	else 
-	{
-	printf("Error\n");
-	return (1);
-	}
-	count++;
+		if (check_num(argv[count]))
+		{
+			str_to_int = atoi(argv[count]);
+			sum += str_to_int;
+			}
+		else
+		{
+			printf("Error\n");
+			return (1);
+		}
+		count++;
 }
-printf("%d\n", sum);
-
-return (0);
-
-}}
+	printf("%d\n", sum);
+	return (0);
+}
+}
